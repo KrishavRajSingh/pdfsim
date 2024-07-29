@@ -1,0 +1,10 @@
+# Python bytecode directories
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+
+# Python egg files
+*.egg
+*.egg-info/
