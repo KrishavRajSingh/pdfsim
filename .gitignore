@@ -1,6 +1,7 @@
 # Python bytecode directories
 __pycache__/
 *.py[cod]
+.pypirc
 
 # Virtual environment
 venv/
@@ -8,3 +9,6 @@ venv/
 # Python egg files
 *.egg
 *.egg-info/
+
+#Builds
+dist
