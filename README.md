@@ -22,7 +22,7 @@ Follow these steps to install and set up the PDF Similarity Matcher:
 To find similar PDFs, use the following command:
 
 ```bash
-python3 main.py -d <directory_containing_pdf> -i <input_pdf> -t <top_n> [-kv]
+pdfsim -d <directory_containing_pdf> -i <input_pdf> -t <top_n> [-kv]
 ```
 
 ## Arguments
