@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pdfsim',
-    version='0.2',
+    version='0.3',
     py_modules=['main'],
     entry_points={
         'console_scripts': [
@@ -16,10 +16,10 @@ setup(
     ],
     author='Krishav Raj Singh',
     author_email='krishavrajsingh@example.com',
-    description='A CLI tool to find similar PDF.',
+    description='A CLI tool to find similar PDF in a given directory',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/yourusername/invoice_similarity',
+    url='https://github.com/KrishavRajSingh/pdfsim',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
