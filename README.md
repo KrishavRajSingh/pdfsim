@@ -13,6 +13,28 @@ The **PDF Similarity Matcher** is a command-line tool for finding and displaying
 
 Follow these steps to install and set up the PDF Similarity Matcher:
 
+```
+    pip install pdfsim
+```
+
+## Usage
+
+To find similar PDFs, use the following command:
+
+```bash
+pdfsim -d <directory_containing_pdf> -i <input_pdf> -t <top_n> [-kv]
+```
+
+## Arguments
+- -d, --database (required): Path to the directory containing PDF files to compare against.
+- -i, --input (required): Path to the input PDF file you want to compare.
+- -t, --top (optional, default: 1): Number of top similar PDFs to display.
+- -kv (optional): Enable detailed key-value feature output for similar PDFs.
+
+## Contributing
+
+Follow these steps to setup the project locally
+
 1. **Clone the repository:**
 
     ```bash
@@ -54,16 +76,4 @@ Follow these steps to install and set up the PDF Similarity Matcher:
     nltk
     ```
 
-## Usage
 
-To find similar PDFs, use the following command:
-
-```bash
-python3 main.py -d <directory_containing_pdf> -i <input_pdf> -t <top_n> [-kv]
-```
-
-## Arguments
-- -d, --database (required): Path to the directory containing PDF files to compare against.
-- -i, --input (required): Path to the input PDF file you want to compare.
-- -t, --top (optional, default: 1): Number of top similar PDFs to display.
-- -kv (optional): Enable detailed key-value feature output for similar PDFs.
